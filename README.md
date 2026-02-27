@@ -21,11 +21,12 @@
 
 ----------------------------------------------------------------------
 
-In alternativa mettere nel workspace quello che ce scritto in workspace.code-workspace
+In alternativa mettere nel workspace quello che ce scritto in workspace.code-workspaceil 
+file lo trovate nella repository basta copiare e incollare e corregere i percorsi di cartella con i vostri
 
 --------------------------------------------------------------------------------------
 
 ## Nota: 
-- Il modulo a cui si deve esportare la traduzione deve essere installato su odoo se no il file .po sara vuoto
-il file lo trovate nella repository basta copiare e incollare e corregere i percorsi di cartella con i vostri
+- Il modulo a cui si deve esportare la traduzione deve essere installato su odoo se no il file .po sarà vuoto
+
 
