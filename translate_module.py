@@ -45,6 +45,8 @@ def run_export():
         with open(filename, 'wb') as f:
             trans_export(export_lang, [args.module], f, export_format, cr)
             print(f"File creato con successo: {filename}")
+    
+    odoo.modules.registry.Registry.delete(args.db)
 
 if __name__ == "__main__":
     run_export()
