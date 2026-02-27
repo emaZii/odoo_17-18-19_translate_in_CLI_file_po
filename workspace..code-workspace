@@ -1,17 +1,17 @@
 {
-		"name": "Translate Module",
-		"type": "debugpy",
-		"request": "launch",
+	"name": "Translate Module",
+	"type": "debugpy",
+	"request": "launch",
     "stopOnEntry": false,
-		"program": "${workspaceFolder:odoo-18}/translate_module.py",
-		"python": "/home/emanue/odoo-folder/venv/odoo-18/bin/python3",
-		"args": [
+	"program": "${workspaceFolder:odoo-18}/translate_module.py",
+	"python": "/home/emanue/odoo-folder/venv/odoo-18/bin/python3",
+	"args": [
 			"-d", "lab18",
 			"-m", "academy_system",
 			"-p", "../lab18",
 			"--db_port", "5423",
 			"--db_user", "odoo",
 			"--db_password", "myodoo"
-		],
-		"console": "integratedTerminal"
+	],
+	"console": "integratedTerminal"
 },
