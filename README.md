@@ -1,3 +1,8 @@
+## Branch
+main-> odoo 18
+17 -> odoo17
+19 -> odoo 19
+
 ### Tutorial
 - copiare lo script translate_module.py nella cartella  ./odoo-folder/src18/odoo[versione]/
 - Eseguire il comando:
