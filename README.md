@@ -20,5 +20,6 @@
 - Risultato: lo script creerà il file in ~/odoo-folder/src18/lab18/academy_system/i18n/it_IT.po.
 
 ----------------------------------------------------------------------
+
 In alternativa mettere nel workspace quello che ce scritto in workspace.code-workspace 
 il file lo trovate nella repository basta copiare e incollare e corregere i percorsi di cartella con i vostri
