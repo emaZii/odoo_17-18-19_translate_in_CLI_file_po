@@ -16,6 +16,7 @@ args = parser.parse_args()
 addons_path = os.path.abspath(args.path)
 
 odoo.tools.config['--addons-path'] = addons_path
+odoo.tools.config['db_host'] = '127.0.0.1'
 odoo.tools.config['--db_password'] = args.db_password
 odoo.tools.config['--db_port'] = args.db_port
 odoo.tools.config['--db_user'] = args.db_user
