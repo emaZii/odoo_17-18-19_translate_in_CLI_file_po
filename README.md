@@ -1,6 +1,6 @@
 bash
 '''
- python3 translate_module.py -d lab18 -m academy_system -p ../lab18 --db_port 5423 --db_user odoo --db_password myodoo
+ python3 translate_module.py -d lab18 -m academy_system -p ../lab18 --db_port 5423 --db_user odoo --db_password myodoo 
 '''
 
 ### Cosa fa questo comando:
