@@ -1,6 +1,6 @@
 ## Branch
 - main-> odoo 18
-- 17 -> odoo17
+- 17 -> odoo 17
 - 19 -> odoo 19
 
 ### Tutorial
