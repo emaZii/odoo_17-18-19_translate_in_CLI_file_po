@@ -15,7 +15,6 @@ def run_export():
     parser.add_argument('--db_password', default='')
     args = parser.parse_args()
 
-    # Risolve il percorso relativo in assoluto
     addons_path = os.path.abspath(args.path)
 
     odoo.tools.config.parse([
