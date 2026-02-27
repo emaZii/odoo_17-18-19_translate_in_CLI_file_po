@@ -22,7 +22,7 @@
 ----------------------------------------------------------------------
 
 In alternativa mettere nel workspace quello che ce scritto in workspace.code-workspaceil 
-file lo trovate nella repository basta copiare e incollare e corregere i percorsi di cartella con i vostri
+file lo trovate nella repository basta copiare e incollare e corregere i percorsi delle cartella con i vostri
 
 --------------------------------------------------------------------------------------
 
