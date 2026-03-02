@@ -21,7 +21,7 @@
 
 ----------------------------------------------------------------------
 
-In alternativa mettere nel workspace quello che ce scritto in workspace.code-workspace il 
+In alternativa mettere nel workspace quello che ce scritto in workspace.code-workspace il file
 lo si trova nella repository basta copiare e incollare e corregere i percorsi delle cartella 
 
 --------------------------------------------------------------------------------------
