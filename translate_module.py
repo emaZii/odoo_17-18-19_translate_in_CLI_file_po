@@ -15,13 +15,20 @@ args = parser.parse_args()
 
 addons_path = os.path.abspath(args.path)
 
-odoo.tools.config.parse([
-    '--addons-path=' + addons_path,
-    '--db_port=' + args.db_port,
-    '--db_user=' + args.db_user,
-    '--db_password=' + args.db_password,
-])
-
+try:
+    odoo.tools.config.parse([
+        '--addons-path=' + addons_path,
+        '--db_port=' + args.db_port,
+        '--db_user=' + args.db_user,
+        '--db_password=' + args.db_password,
+    ])
+except TypeError:
+    odoo.tools.config['addons_path'] = addons_path
+    odoo.tools.config['db_host'] = '127.0.0.1'
+    odoo.tools.config['db_port'] = int(args.db_port)
+    odoo.tools.config['db_user'] = args.db_user
+    odoo.tools.config['db_password'] = args.db_password
+    
 registry = odoo.modules.registry.Registry.new(args.db)
     
 i18n_path = os.path.join(addons_path, args.module, 'i18n')
