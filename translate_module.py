@@ -58,4 +58,4 @@ with registry.cursor() as cr:
         trans_export(export_lang, [args.module], f, export_format, env)
         print(f"File creato con successo: {filename}")
 
-odoo.modules.registry.Registry.delete(args.db)
+Registry.delete(args.db)
