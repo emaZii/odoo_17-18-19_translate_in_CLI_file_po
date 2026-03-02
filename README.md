@@ -4,12 +4,12 @@
 - 19 -> odoo 19
 
 ### Tutorial
-- copiare lo script translate_module.py nella cartella  ./odoo-folder/src18/odoo[versione]/
+- copiare lo script translate_module.py nella cartella  ./odoo-folder/src17/odoo[versione]/
 - Eseguire il comando:
 
 ## bash
 '''
- python3 translate_module.py -d lab18 -m academy_system -p ../lab18 --db_port 5423 --db_user odoo --db_password myodoo 
+ python3 translate_module.py -d lab17 -m academy_system -p ../lab17 --db_port 5423 --db_user odoo --db_password myodoo 
 '''
 
 ### Cosa fa questo comando:
