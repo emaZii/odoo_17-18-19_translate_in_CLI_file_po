@@ -28,5 +28,7 @@ file lo trovate nella repository basta copiare e incollare e corregere i percors
 
 ## Nota: 
 - Il modulo a cui si deve esportare la traduzione deve essere installato su odoo se no il file .po sarà vuoto
+- Se la lingua del modulo in odoo non e installata lo script dara errore
+Esempio : se il modulo ha la lingua italiana  e in odoo non e installata la lingua installata , lo script dara errore
 
 
