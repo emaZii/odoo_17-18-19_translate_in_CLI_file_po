@@ -1,3 +1,8 @@
+## Branch
+- main-> odoo 18
+- 17 -> odoo 17
+- 19 -> odoo 19
+
 ### Tutorial
 - copiare lo script translate_module.py nella cartella  ./odoo-folder/src18/odoo[versione]/
 - Eseguire il comando:
@@ -15,5 +20,13 @@
 - Risultato: lo script creerà il file in ~/odoo-folder/src18/lab18/academy_system/i18n/it_IT.po.
 
 ----------------------------------------------------------------------
-In alternativa mettere nel workspace quello che ce scritto in workspace.code-workspace 
-il file lo trovate nella repository basta copiare e incollare e corregere i percorsi di cartella con i vostri
+
+In alternativa mettere nel workspace quello che ce scritto in workspace.code-workspaceil 
+file lo trovate nella repository basta copiare e incollare e corregere i percorsi delle cartella con i vostri
+
+--------------------------------------------------------------------------------------
+
+## Nota: 
+- Il modulo a cui si deve esportare la traduzione deve essere installato su odoo se no il file .po sarà vuoto
+
+
