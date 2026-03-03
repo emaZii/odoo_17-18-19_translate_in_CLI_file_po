@@ -32,11 +32,10 @@ if not os.path.exists(i18n_path):
 
 if args.lang == 'en_US':
     filename = os.path.join(i18n_path, f"{args.module}.po")
-    export_lang = True
+    export_lang = False
     export_format = 'po'
 elif args.lang == 'it_IT':
     filename = os.path.join(i18n_path, f"{args.module}.po")
-    export_lang = False
     export_format = 'po'
 else:
     filename = os.path.join(i18n_path, f"{args.lang}.po")
