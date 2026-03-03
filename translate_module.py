@@ -48,4 +48,4 @@ with registry.cursor() as cr:
         trans_export(export_lang, [args.module], f, export_format, cr)
         print(f"File creato con successo: {filename}")
             
-registry = odoo.modules.registry.Registry.delete(args.db)
+#registry = odoo.modules.registry.Registry.delete(args.db)
