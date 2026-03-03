@@ -30,6 +30,8 @@ lo si trova nella repository basta copiare e incollare e corregere i percorsi de
 - Il modulo a cui si deve esportare la traduzione deve essere installato su odoo se no il file .po sarà vuoto
 - Se la lingua del modulo in odoo non e installata lo script dara errore
 Esempio : se il modulo ha la lingua italiana  e in odoo non e installata la lingua installata , lo script dara errore
-- Le traduzioni messe manualmente da inetrfaccia odoo li prende a condizione che sono installate su odoo stesso
-
+- Le traduzioni messe manualmente da inetrfaccia odoo li prende a condizione che la lingua della traduzione sia installata su odoo stesso
+e i campi abbiano  "translate=True"
+# Questo SÌ - la traduzione manuale viene salvata e esportata
+name = fields.Char(string='Nome', translate=True)
 
