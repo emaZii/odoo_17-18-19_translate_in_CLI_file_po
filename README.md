@@ -32,3 +32,4 @@ lo si trova nella repository basta copiare e incollare e corregere i percorsi de
 Esempio : se il modulo ha la lingua italiana  e in odoo non e installata la lingua installata , lo script dara errore
 - Le traduzioni messe manualmente da inetrfaccia odoo li prende a condizione che sono installate su odoo stesso
 
+
