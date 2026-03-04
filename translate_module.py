@@ -30,14 +30,19 @@ if not os.path.exists(i18n_path):
     os.makedirs(i18n_path, exist_ok=True)
     print(f"Cartella creata: {i18n_path}")
 
-if args.lang == 'en_US':
+if args.lang == 'it_IT':
+    filename = os.path.join(i18n_path, f"{args.module}.po")
+    export_lang = 'it_IT'     
+    export_format = 'po'
+elif args.lang == 'en_US':
     filename = os.path.join(i18n_path, f"{args.module}.pot")
-    export_lang = False       
+    export_lang = False    
     export_format = 'pot'
 else:
     filename = os.path.join(i18n_path, f"{args.lang}.po")
     export_lang = args.lang 
     export_format = 'po'
+
     
 with registry.cursor() as cr:
     with open(filename, 'wb') as f:
